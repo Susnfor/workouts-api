@@ -1,6 +1,7 @@
 const express = require('express'); // import express
 const colors = require('colors'); // import colors
 const dotenv = require('dotenv'); // import dotenv
+const cors = require('cors'); // import cors
 const mongoose = require('mongoose'); // import mongoose
 const routes = require('./routes/workouts'); // import/connect to routes
 
@@ -11,6 +12,7 @@ const app = express(); // initialize express
 
 //middleware
 app.use(express.json()); // use express to parse json
+app.use(cors()); // use cors
 
 //routes
 app.use('/api/workouts', routes); // use routes
