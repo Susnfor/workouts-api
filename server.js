@@ -12,7 +12,9 @@ const app = express(); // initialize express
 
 //middleware
 app.use(express.json()); // use express to parse json
-app.use(cors()); // use cors
+app.use(cors({
+    origin: '*'
+})); // use cors
 
 //routes
 app.use('/api/workouts', routes); // use routes
