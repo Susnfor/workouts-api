@@ -14,6 +14,3 @@
 * [MongoDB](https://www.mongodb.com/) This is a free open source NOSQL document database with scalability and flexibility. Data are stored in flexible JSON-like documents.
 * [Mongoose ODM](https://mongoosejs.com/) This makes it easy to write MongoDB validation by providing a straight-forward, schema-based solution to model to application data.
 
-### Authors
-* [Susan](https://github.com/susnfor)
-* ![alt text](https://avatars.githubusercontent.com/u/97429786?v=4)
